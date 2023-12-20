@@ -5,12 +5,13 @@ from dotenv import load_dotenv, set_key
 load_dotenv()
 key = os.getenv('OPENAI_API_KEY')
 training_file_env = os.getenv('CURRENT_TRAINING_FILE_ID')
+model_to_train = os.getenv('OPENAI_MODEL_ID')
 
 client = OpenAI(api_key=key)
 
 response = client.fine_tuning.jobs.create(
     training_file=training_file_env,
-    model="gpt-3.5-turbo"
+    model=model_to_train
 )
 
 job_id = response.id

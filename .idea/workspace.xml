@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cefaf05d-988a-412e-ae82-7852fa6d73ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/get-models-from-organization.py" afterDir="false" />
+    <list default="true" id="cefaf05d-988a-412e-ae82-7852fa6d73ff" name="Changes" comment=":tada: first commit">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-fine-tune-model.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-fine-tune-model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,8 +87,17 @@
       <workItem from="1703007835202" duration="57000" />
       <workItem from="1703007897193" duration="10179000" />
       <workItem from="1703045391566" duration="79000" />
-      <workItem from="1703045482001" duration="3016000" />
+      <workItem from="1703045482001" duration="3277000" />
     </task>
+    <task id="LOCAL-00001" summary=":tada: first commit">
+      <option name="closed" value="true" />
+      <created>1703048520691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703048520691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +105,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":tada: first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=":tada: first commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fine_tune_models_chatGPT$get_models_from_organization.coverage" NAME="get-models-from-organization Coverage Results" MODIFIED="1703047895864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

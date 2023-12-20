@@ -20,6 +20,7 @@ FINE_TUNING_MODEL_ID=
 TRAIN_FILE_ASSET_FILENAME=
 SYSTEM_ROLE_CONTENT=
 USER_ROLE_CONTENT=
+OPENAI_MODEL_ID=gpt-3.5-turbo
 ```
 ### Setup your data
 
@@ -37,8 +38,7 @@ Did you see that every new line starts with a "{" and doesnt have a "," between 
 You can use the next script with chatGPT 3.5
 
 ``` javascript
-User
-questions = [
+User questions = [
   "Whan do you know about Charlie Manson?, what he did?",
   "What do you know about Arturo 'El Negro' Durazo?",
   "What you can tell me about the los Narcosatánicos?",
